@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.box {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.square {
+  width: 100%;
+  height: 80px;
+  background-color: #C4C4C4;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-transform: none;
+}
+.card-img {
+  width: 100%;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card-title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+}
+.card-subtitle {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  opacity: 50%;
+}
+.card-price {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.header {
+  padding: 30px 0;
+}
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo__Img {
+  max-width: 80px;
+}
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.header-nav__Link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.first {
+  padding: 10px 0 90px 0;
+  width: 100%;
+}
+.first-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #000;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.first-text span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #000;
+  font-family: "Orbitron", sans-serif;
+  font-size: 130px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 14px;
+  padding: 25px 0 21px 0;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin-top: 24px;
+}
+.first-title span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-subtitle {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.first-subtitle__text {
+  max-width: 557px;
+  padding: 24px 0;
+  color: #000000;
+  font-family: "Orbitron", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #000;
+  margin-bottom: 24px;
+}
+.first-subtitle__text__Blue {
+  color: #0949EF;
+  font-weight: 500;
+}
+.first-subtitle__text__red {
+  color: #FB0223;
+  font-weight: 500;
+}
+.first-picture {
+  width: 100%;
+  object-fit: cover;
+}
+
+.CardBlockRed {
+  padding: 60px 0 67px 0;
+  background-color: #000000;
+}
+.CardBlockRed-text {
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.CardBlockRed-title {
+  color: #FB0223;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 65px;
+  padding: 10px 0;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+.CardBlockRed-subtitle {
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 65px;
+  padding: 10px 0;
+  border-bottom: 3px solid #ffffff;
+}
+.CardBlockRed-subtext {
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  max-width: 454px;
+  margin: 24px 0 30px 0;
+}
+.CardBlockRed-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CardBlockRed-block__text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  text-transform: none;
+}
+
+.blockLogo {
+  padding: 60px 0 113px 0;
+}
+.blockLogo-text {
+  color: #000000;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.blockLogo-title {
+  color: #000000;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 65px;
+  padding: 10px 0;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+}
+.blockLogo-title span {
+  color: #0949EF;
+}
+.blockLogo-subtitle {
+  color: #000000;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 65px;
+  padding: 10px 0;
+  border-bottom: 3px solid #000000;
+}
+.blockLogo-subtitle span {
+  color: #FB0223;
+}
+.blockLogo-subtext {
+  color: #000000;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  max-width: 338px;
+  margin: 24px 0 30px 0;
+}
+.blockLogo-east {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  padding: 20px 0;
+  border-bottom: 3px solid #0949EF;
+  margin-bottom: 40px;
+}
+.blockLogo-West {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  padding: 20px 0;
+  border-bottom: 3px solid #FB0223;
+  margin-bottom: 40px;
+}
+.blockLogo__text {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  text-transform: none;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
